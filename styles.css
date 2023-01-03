@@ -1,0 +1,21 @@
+body {
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.left {
+  width: 34%;
+  background-image: url(./assets/greens.jpg);
+}
+
+.right {
+  width: 66%;
+}
+
+@font-face {
+  font-family: my-cool-font;
+  src: url(./assets/Norse-Bold.otf);
+}

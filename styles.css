@@ -7,18 +7,31 @@ body {
 }
 
 .left {
-  width: 34%;
+  width: 36%;
   background-image: url(./assets/greens.jpg);
+  background-size: cover;
 }
 
 .right {
-  width: 66%;
+  width: 64%;
+  margin: 200px 0px;
+  padding: 0 50px;
   display: flex;
   flex-direction: column;
 }
 
-.logo {
-  width: 50%;
+.background {
+  background-color: rgba(0, 0, 0, .4);
+  height: 150px;
+  justify-content: center;
+  margin-top: 150px;
+  padding: 7px 0;
+}
+
+.odin {
+  font-size: 48px;
+  line-height: 1;
+  color: white;
 }
 
 @font-face {

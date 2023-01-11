@@ -2,36 +2,48 @@ body {
   margin: auto;
 }
 
-.flex-container {
+.main {
   display: flex;
 }
 
-.left {
-  width: 36%;
+.left-section {
+  width: 40%;
   background-image: url(./assets/greens.jpg);
   background-size: cover;
 }
 
-.right {
-  width: 64%;
-  margin: 200px 0px;
-  padding: 0 50px;
+.right-section {
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
 
-.background {
+.logo-background {
   background-color: rgba(0, 0, 0, .4);
   height: 150px;
   justify-content: center;
   margin-top: 150px;
-  padding: 7px 0;
+  padding: 12px 0;
 }
 
-.odin {
+.logo-type {
   font-size: 48px;
   line-height: 1;
   color: white;
+}
+
+.heading {
+  background-color: #f9f9f9;
+  padding: 150px 100px 50px 50px;
+}
+
+.right-2 {
+  background-color: #f9f9f9;
+  padding: 50px 100px 150px 50px;
+}
+
+.form {
+  padding: 25px 100px 25px 50px;
 }
 
 @font-face {
